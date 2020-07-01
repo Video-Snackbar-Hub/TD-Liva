@@ -2,4 +2,4 @@
 An open framewok for creating software based live production tools in TouchDesigner
 
 
-Hi VSH guys ! Here's a Readme. 
+This is a work in progress by https://www.videosnackbarhub.com/ 
