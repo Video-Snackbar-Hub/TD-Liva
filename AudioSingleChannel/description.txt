@@ -1,0 +1,9 @@
+This block takes an audio input and gives an audio output.
+If we look from the top to the bottom, we first notice a volume indicator followed by the name of the audio channel.
+The volume indicator displays the volume of the audio at the output of the block. Then we see 3 knobs which influence the high, medium and low frequencies of the audio signal. 
+The 'Mute' button kills the audio output. The 'Pre' (pre-processing) button changes the signal to the volume meter, instead of the output signal, it will now display the input signal.
+
+With the 'Pre' button activated, we can normalize the audio at the input by using the 'gain' knob. This comes in handy when multiple audio signals, at multiple channels, need to be normalized at the input.
+The slider at the bottom is an easy to use volume slider.
+
+When we combine 5 of the audio channel blocks, we can easily make a 4 channel audio mixer with a master output. In this example the equalizer makes sure that all audio inputs have approximately the same gain, which increases the ease of use of the volume sliders.
